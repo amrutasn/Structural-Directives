@@ -1,0 +1,11 @@
+<h1>Student subject</h1>
+<div [ngSwitch]="Subject">
+
+  <div *ngSwitchCase="'CPP'">You select CPP subject</div>
+  <div *ngSwitchCase="'JAVA'">You select Java subject</div>
+  <div *ngSwitchCase="'JavaScript'">You select JavaScript subject</div>
+  <div *ngSwitchCase="'iOS'">You select iOS subject</div>
+
+  <div *ngSwitchDefault>Wrong Selection</div>
+
+</div>
